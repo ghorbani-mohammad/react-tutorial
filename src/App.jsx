@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Header from './Header'
 import Footer from './Footer'
 import Food from './Food'
+import Card from './Card'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Header />
       <Food />
+      <Card />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
